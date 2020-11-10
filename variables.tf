@@ -1,3 +1,13 @@
+#Azure Variables
+variable "subscription_id" {}
+variable "tenant_id" {}
+variable "client_id" {}
+variable "client_secret" {}
+variable "location" {  
+  type    = string
+  default = "Central US"
+}
+
 variable "resource_group_name" {
   description = "The resource group name to be imported"
   type        = string
